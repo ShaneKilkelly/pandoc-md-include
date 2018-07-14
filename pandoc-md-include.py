@@ -10,8 +10,7 @@ Matcher = re.compile('<!-- %include\("(.*)"\) -->')
 this_script = os.path.abspath(sys.argv[0])
 
 def main():
-	input_lines = sys.stdin.readlines()
-	input_str = "\n".join(input_lines)
+	input_str = sys.stdin.read()
 	input_data = json.loads(input_str)
 	output_blocks = []
 	for block in input_data['blocks']:
