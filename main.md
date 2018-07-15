@@ -1,14 +1,7 @@
-Main File
-=========
-
-What?
------
-
+# Test
 
 This is a test:
 
+<!-- %include("./list.md") -->
 
-<!-- %include("./other.md") -->
-
-
-And this is a bit that comes after.
+And this bit comes after.
