@@ -6,7 +6,7 @@ import re
 import json
 import subprocess
 
-Matcher = re.compile('<!-- %include\("(.*)"\) -->')
+Matcher = re.compile('<!-- %% include\("(.*)"\) %% -->')
 this_script = os.path.abspath(sys.argv[0])
 
 def main():
